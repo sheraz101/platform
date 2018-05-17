@@ -108,7 +108,7 @@
         public sortBy: string = "lastModifiedDate__desc";
         public hasNoResults: boolean = false;
         public isEmpty: boolean = false;
-        public technologiesSelect: string[];
+        public technologiesSelect: string[] = [];
 
         public listFilter: RequestListFilter = Object.assign(new RequestListFilter(), {
             search: null,
